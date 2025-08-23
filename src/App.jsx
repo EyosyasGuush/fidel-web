@@ -6,6 +6,7 @@ import Contacts from './pages/Contacts'
 import Plans from './pages/Plans'
 import Login from './pages/Login'
 import Signup from './pages/Signup'
+import TutorsList from './pages/TutorsList'
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
         <Route path='/plans' element={<Plans />} />
         <Route path='/login' element={<Login />} />
         <Route path='/signup' element={<Signup />} />
+        <Route path='/tutors' element={<TutorsList />} />
         <Route path='*' element={"404 Not Found"} />
       </Routes>
     </BrowserRouter>
