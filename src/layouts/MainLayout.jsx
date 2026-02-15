@@ -15,7 +15,7 @@ function MainLayout({children}) {
     return (<>
             <div className={`${theme ? "dark" : ""} bg-white dark:bg-zinc-900 flex flex-col min-h-screen w-full`}>
                 <div className="bg-zinc-200 dark:bg-zinc-800 flex flex-row items-center justify-between w-full">
-                    <h1 className="text-2xl text-right font-extrabold text-zinc-700 dark:text-zinc-200 pl-4 ">Fidel</h1>
+                    <h1 className="text-2xl text-right font-extrabold text-zinc-700 dark:text-zinc-200 pl-4 ">ፊidel</h1>
                     <ul className="justify-center items-center mx-4 ml-12 hidden md:block">
                         <Link to="/home" className="text-lg dark:text-white mx-4">home</Link>
                         <Link to="/about" className="text-lg dark:text-white mx-4">about</Link>

@@ -28,7 +28,6 @@ function Login(){
                         <div className="flex flex-row items-center justify-center mt-2">
                             <Button text={"Google"} className={"px-4 py-2 rounded-lg m-2"} />
                             <Button text={"Facebook"} className={"px-4 py-2 rounded-lg m-2"} />
-                            <Button text={"Twitter"} className={"px-4 py-2 rounded-lg m-2"} />
                         </div>    
                     </form>
                 </div>

@@ -8,6 +8,9 @@ import Login from './pages/Login'
 import Signup from './pages/Signup'
 import TutorsList from './pages/TutorsList'
 import TutorRegister from './pages/TutorRegister'
+import ChooseRole from './pages/ChooseRole'
+import StudentRegister from './pages/StudentRegister'
+import AddressRegister from './pages/AddressRegister'
 
 function App() {
 
@@ -20,8 +23,11 @@ function App() {
         <Route path='/plans' element={<Plans />} />
         <Route path='/login' element={<Login />} />
         <Route path='/signup' element={<Signup />} />
+        <Route path='/role-selection' element={<ChooseRole />} />
         <Route path='/tutors' element={<TutorsList />} />
         <Route path='/register-tutor' element={<TutorRegister />} />
+        <Route path='/register-student' element={<StudentRegister />} />
+        <Route path='/register-address' element={<AddressRegister />} />
         <Route path='*' element={"404 Not Found"} />
       </Routes>
     </BrowserRouter>

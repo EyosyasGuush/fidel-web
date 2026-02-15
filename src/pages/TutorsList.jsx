@@ -24,6 +24,15 @@ function TutorsList() {
                 <TutorCard />
                 <TutorCard />
                 <TutorCard />
+                <TutorCard />
+                <TutorCard />
+                <TutorCard />
+                <TutorCard />
+                <TutorCard />
+                <TutorCard />
+                <TutorCard />
+                <TutorCard />
+                <TutorCard />
             </div>
         </MainLayout>
     </>
