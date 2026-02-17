@@ -10,8 +10,7 @@ import TutorsList from './pages/TutorsList'
 import TutorRegister from './pages/TutorRegister'
 import ChooseRole from './pages/ChooseRole'
 import StudentRegister from './pages/StudentRegister'
-import AddressRegister from './pages/AddressRegister'
-import TimeSlotRegister from './pages/TimeSlotRegister'
+import Subscription from './pages/Subscription'
 
 function App() {
 
@@ -28,6 +27,7 @@ function App() {
         <Route path='/tutors' element={<TutorsList />} />
         <Route path='/register-tutor' element={<TutorRegister />} />
         <Route path='/register-student' element={<StudentRegister />} />
+        <Route path="/subscriptions" element={<Subscription />} />
         <Route path='*' element={"404 Not Found"} />
       </Routes>
     </BrowserRouter>

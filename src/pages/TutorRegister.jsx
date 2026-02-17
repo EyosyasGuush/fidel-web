@@ -71,7 +71,7 @@ function TutorRegister() {
   return (
      <>
             <MainLayout>
-                <div className="flex flex-col items-center justify-center ">
+                <div className="flex flex-col items-center justify-center mt-2">
                         <form className="flex flex-col  items-center bg-zinc-100 dark:bg-zinc-800 p-6 m-4 rounded-2xl">
                             <h1 className="text-3xl font-bold text-zinc-800 mb-8 dark:text-zinc-200">Tutor Registration</h1>
                             <div className="flex flex-col md:flex-row">
