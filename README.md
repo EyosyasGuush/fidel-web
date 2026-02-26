@@ -6,7 +6,7 @@ A Smart Tutor-Finding Platform for Ethiopian Families
 
 ## 🌍 Overview
 
-Fidel is a web platform that connects parents and students with qualified tutors based on subject, location, teaching mode, and experience. Designed specifically for the Ethiopian education environment, the system provides a structured, searchable tutor marketplace where families can discover, evaluate, and contact tutors directly.
+Fidel is a web platform that connects parents and students with qualified tutors based on subject, location, teaching mode, and experience. Designed specifically for the Ethiopian education environment, the system provides a structured, searchable tutor marketplace where families can discover, evaluate, and contact tutors directly. Fidel also focuses on finding and connecting tutors in universit and college campuses.
 
 Tutors create professional profiles and may subscribe to monthly plans that boost their visibility. Parents and students search using intelligent filters and reach out to tutors without intermediaries.
 
@@ -144,12 +144,6 @@ I created Fidel to solve a real‑world problem in my community. While education
 
 Active development. Core functionality implemented:
 
-- Authentication and role management
-- Tutor profile creation and search
-- Advanced filtering
-- Subscription handling
-- Admin management interface
-
 ---
 
 ## 📎 Installation
@@ -160,6 +154,12 @@ To run the project locally:
 git clone <repo-url>
 cd fidel-web
 npm install
+- Authentication and role management
+- Tutor profile creation and search
+- Advanced filtering
+- Subscription handling
+- Admin management interface
+
 npm run dev
 ```
 
@@ -171,6 +171,6 @@ npm run dev
 
 Developed by Eyosyas Guush
 
-LinkedIn: [your‑linked‑in‑url]
-Email: [your‑email@example.com]
+LinkedIn: [linkedin.com/in/eyosyasguush/]
+Email: [eyosyasguesh@gmail.com]
 
