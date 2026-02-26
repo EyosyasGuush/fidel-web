@@ -94,7 +94,7 @@ function TutorRegister() {
                                             <div className="flex flex-wrap">
                                                 {formData.subject.map((subject) => (
                                                     <TagSelect
-                                                    className="hover:bg-red-500"
+                                                    className={`hover:border-red-500 hover:text-red-500 dark:hover:border-red-600 dark:hover:text-red-100`}
                                                     key={subject}
                                                     subject={subject}
                                                     onClick={() => handleRemoveSubject(subject)}
